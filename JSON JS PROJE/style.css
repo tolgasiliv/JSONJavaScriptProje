@@ -1,0 +1,45 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 40px 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.80);
+}
+#searchForm {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 10px;
+     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+#searchInput {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  box-shadow: none;
+}
+ 
+#searchInput:focus {
+    outline: none;
+   box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+.btn-outline-succes {
+   background-color: #198754;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-outline-succes:hover {
+    background-color: #157347;
+    transform: scale(1.05);
+}
+#user-cards {
+    margin-top: 30px
+}
